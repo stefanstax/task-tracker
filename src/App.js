@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import ListTask from "./components/ListTask";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
+      <ListTask />
     </div>
   );
 }
