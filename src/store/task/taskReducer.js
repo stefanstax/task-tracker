@@ -1,7 +1,7 @@
 import * as taskActionType from "./taskActionType";
 
 const initialTaskState = {
-  tasklist: [],
+  taskList: [],
 };
 
 const taskReducer = (state = initialTaskState, { type, payload }) => {
@@ -9,7 +9,7 @@ const taskReducer = (state = initialTaskState, { type, payload }) => {
     case taskActionType.GET_TASK:
       return {
         ...state,
-        tasklist: payload
+        taskList: payload
       };
     default:
       return state;
