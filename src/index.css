@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.task-completed {
+  color: green!important;
+  text-decoration: line-through!important;
+}
+
+.task-pending {
+  color: red!important;
+}
